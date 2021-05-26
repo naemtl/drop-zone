@@ -1,0 +1,55 @@
+.nav-container {
+  width: 100%;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-container .nav-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 30px;
+  width: 95px;
+}
+
+.nav-container .nav-right .nav-logo-top,
+.nav-container .nav-right .nav-logo-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-container .nav-right .nav-logo-top .text-box,
+.nav-container .nav-right .nav-logo-bottom .text-box {
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  padding: 0 8px;
+  font-size: 20px;
+  font-family: "Rozha One", serif;
+}
+
+.nav-container .nav-right .nav-logo-top .text-box span,
+.nav-container .nav-right .nav-logo-bottom .text-box span {
+  padding: 0 2px;
+}
+
+.nav-container .nav-right .nav-logo-bottom {
+  margin-top: 5px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+/*# sourceMappingURL=styles.css.map */
