@@ -1,0 +1,27 @@
+.dropzone-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 85vh;
+
+    .dropzone-header,
+    .dropzone-subheader {
+        text-transform: uppercase;
+        font-family: "Lato", sans-serif;
+    }
+
+    .dropzone-header {
+        letter-spacing: 4px;
+        font-weight: 900;
+    }
+    .dropzone-subheader {
+        font-weight: 200;
+    }
+
+    @media (min-width: 426px) {
+        justify-content: center;
+        align-items: flex-end;
+    }
+}

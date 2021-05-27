@@ -1,13 +1,13 @@
 .nav-container {
     width: 100%;
-    height: 80px;
+    height: 15vh;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     .nav-right {
         display: flex;
         flex-direction: column;
-        margin-right: 30px;
+        margin-right: 20px;
         width: 95px;
         .nav-logo-top,
         .nav-logo-bottom {
@@ -18,7 +18,6 @@
                 color: #fff;
                 padding: 0 8px;
                 font-size: 20px;
-                font-family: "Rozha One", serif;
                 span {
                     padding: 0 2px;
                 }
