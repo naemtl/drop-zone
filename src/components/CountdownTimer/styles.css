@@ -16,14 +16,12 @@
 }
 
 .countdown-container .countdown-grid section div:first-child {
-  font-size: 2.5em;
   background-color: #000;
   color: #fff;
   padding: 0 5px;
 }
 
 .countdown-container .countdown-grid section div:last-child {
-  font-size: 0.8em;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
