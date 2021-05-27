@@ -15,6 +15,7 @@
   text-align: center;
   width: 100vw;
   height: 100vh;
+  padding: 0 4px;
 }
 
 .dropzone-container .dropzone-container-inner .dropzone-header,
@@ -29,6 +30,12 @@
 
 .dropzone-container .dropzone-container-inner .dropzone-subheader {
   font-weight: 200;
+}
+
+@media (min-width: 320px) {
+  .dropzone-container .dropzone-container-inner .dropzone-header {
+    font-size: calc(26px + 6 * ((100vw - 320px) / 680));
+  }
 }
 
 @media (min-width: 426px) {

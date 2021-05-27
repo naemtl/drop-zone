@@ -3,7 +3,7 @@
     justify-content: center;
     .countdown-grid {
         display: grid;
-        grid-template-columns: 1fr 20px 1fr 20px 1fr 20px 1fr;
+        grid-template-columns: 1fr 15px 1fr 15px 1fr 15px 1fr;
         text-align: center;
 
         section div:first-child {
@@ -25,6 +25,14 @@
         section div:last-child {
             letter-spacing: 5px;
             text-indent: 5px;
+        }
+        @media (min-width: 320px) {
+            section div:first-child {
+                font-size: calc(22px + 16 * ((100vw - 320px) / 680));
+            }
+            section div:last-child {
+                font-size: calc(10px + 3 * ((100vw - 320px) / 680));
+            }
         }
     }
 }
