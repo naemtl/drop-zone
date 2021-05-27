@@ -12,22 +12,22 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  text-align: center;
   width: 100vw;
-  height: 85vh;
+  height: 70vh;
 }
 
-.dropzone-container .dropzone-header,
-.dropzone-container .dropzone-subheader {
+.dropzone-container .dropzone-container-inner .dropzone-header,
+.dropzone-container .dropzone-container-inner .dropzone-subheader {
   text-transform: uppercase;
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.dropzone-container .dropzone-header {
+.dropzone-container .dropzone-container-inner .dropzone-header {
   letter-spacing: 4px;
-  font-weight: 900;
 }
 
-.dropzone-container .dropzone-subheader {
+.dropzone-container .dropzone-container-inner .dropzone-subheader {
   font-weight: 200;
 }
 
@@ -39,6 +39,13 @@
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
+    margin-right: 50px;
+  }
+  .dropzone-container .dropzone-container-inner {
+    margin-right: 50px;
+  }
+  .dropzone-container .dropzone-container-inner .dropzone-subheader {
+    font-size: 14px;
   }
 }
 /*# sourceMappingURL=styles.css.map */

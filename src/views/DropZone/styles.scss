@@ -3,25 +3,32 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
+    text-align: center;
     width: 100vw;
-    height: 85vh;
+    height: 70vh;
+    .dropzone-container-inner {
+        .dropzone-header,
+        .dropzone-subheader {
+            text-transform: uppercase;
+            font-family: "Roboto", sans-serif;
+        }
 
-    .dropzone-header,
-    .dropzone-subheader {
-        text-transform: uppercase;
-        font-family: "Lato", sans-serif;
+        .dropzone-header {
+            letter-spacing: 4px;
+        }
+        .dropzone-subheader {
+            font-weight: 200;
+        }
     }
-
-    .dropzone-header {
-        letter-spacing: 4px;
-        font-weight: 900;
-    }
-    .dropzone-subheader {
-        font-weight: 200;
-    }
-
     @media (min-width: 426px) {
         justify-content: center;
         align-items: flex-end;
+        margin-right: 50px;
+        .dropzone-container-inner {
+            margin-right: 50px;
+            .dropzone-subheader {
+                font-size: 14px;
+            }
+        }
     }
 }
