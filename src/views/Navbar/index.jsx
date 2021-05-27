@@ -8,18 +8,12 @@ const Navbar = () => {
             <div className="nav-right">
                 <div className="nav-logo-top">
                     <div className="text-box">
-                        <span>d</span>
-                        <span>r</span>
-                        <span>o</span>
-                        <span>p</span>
+                        drop
                     </div>
                 </div>
                 <div className="nav-logo-bottom">
                     <div className="text-box">
-                        <span>z</span>
-                        <span>o</span>
-                        <span>n</span>
-                        <span>e</span>
+                        zone
                     </div>
                 </div>
             </div>

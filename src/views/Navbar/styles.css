@@ -38,11 +38,8 @@
   color: #fff;
   padding: 0 8px;
   font-size: 20px;
-}
-
-.nav-container .nav-right .nav-logo-top .text-box span,
-.nav-container .nav-right .nav-logo-bottom .text-box span {
-  padding: 0 2px;
+  letter-spacing: 5px;
+  text-indent: 5px;
 }
 
 .nav-container .nav-right .nav-logo-bottom {

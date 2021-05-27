@@ -5,25 +5,27 @@ import "./styles.css"
 const CountdownTimer = () => {
     return (
         <div className="countdown-container">
-            <section>
-                <p>66</p>
-                <p><small>Days</small></p>
-            </section>
-            <span>:</span>
-            <section>
-                <p>66</p>
-                <p><small>Hours</small></p>
-            </section>
-            <span>:</span>
-            <section>
-                <p>66</p>
-                <p><small>Mins</small></p>
-            </section>
-            <span>:</span>
-            <section>
-                <p>66</p>
-                <p><small>Secs</small></p>
-            </section>
+            <div className="countdown-grid">
+                <section>
+                    <div>66</div>
+                    <div>Days</div>
+                </section>
+                <span></span>
+                <section>
+                    <div>66</div>
+                    <div>Hours</div>
+                </section>
+                <span></span>
+                <section>
+                    <div>66</div>
+                    <div>Mins</div>
+                </section>
+                <span></span>
+                <section>
+                    <div>66</div>
+                    <div>Secs</div>
+                </section>
+            </div>
         </div>
     )
 }

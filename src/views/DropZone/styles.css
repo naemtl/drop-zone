@@ -14,7 +14,7 @@
           justify-content: flex-end;
   text-align: center;
   width: 100vw;
-  height: 70vh;
+  height: 85vh;
 }
 
 .dropzone-container .dropzone-container-inner .dropzone-header,
@@ -39,7 +39,7 @@
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
-    margin-right: 50px;
+    height: 70vh;
   }
   .dropzone-container .dropzone-container-inner {
     margin-right: 50px;

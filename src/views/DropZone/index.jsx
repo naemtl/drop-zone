@@ -10,7 +10,7 @@ const DropZone = () => {
             <div className="dropzone-container-inner">
                 <h1 className="dropzone-header">Leezy Boost 103</h1>
                 <CountdownTimer />
-                <div className="dropzone-subheader">Until drop</div>
+                <h5 className="dropzone-subheader">Until drop</h5>
             </div>
         </div>
     )

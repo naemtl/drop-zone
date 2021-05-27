@@ -1,4 +1,30 @@
 .countdown-container {
     display: flex;
     justify-content: center;
+    .countdown-grid {
+        display: grid;
+        grid-template-columns: 1fr 20px 1fr 20px 1fr 20px 1fr;
+        text-align: center;
+
+        section div:first-child {
+            font-size: 2.5em;
+            background-color: #000;
+            color: #fff;
+            padding: 0 5px;
+        }
+        section div:last-child {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+        }
+        span {
+            width: 30px;
+        }
+        section div:first-child,
+        section div:last-child {
+            letter-spacing: 5px;
+            text-indent: 5px;
+        }
+    }
 }
