@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 
 import "./styles.css"
 
-const CountdownTimer = () => {
+const CountdownTimer = ({ date }) => {
     const [timerDays, setTimerDays] = useState("00")
     const [timerHours, setTimerHours] = useState("00")
     const [timerMins, setTimerMins] = useState("00")
@@ -11,7 +11,7 @@ const CountdownTimer = () => {
     let interval = useRef()
 
     const startTimer = () => {
-        const countdownDate = new Date('October 6 2021 00:00:00').getTime()
+        const countdownDate = date ? new Date(date).getTime() : 0
 
         interval = setInterval(() => {
             const now = new Date().getTime()

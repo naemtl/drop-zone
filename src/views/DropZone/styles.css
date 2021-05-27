@@ -18,6 +18,11 @@
   padding: 0 4px;
 }
 
+.dropzone-container .dropzone-container-inner .dropzone-datepicker.hide {
+  -webkit-animation: fade-out ease 2s forwards;
+          animation: fade-out ease 2s forwards;
+}
+
 .dropzone-container .dropzone-container-inner .dropzone-header,
 .dropzone-container .dropzone-container-inner .dropzone-subheader {
   text-transform: uppercase;
@@ -52,6 +57,24 @@
   }
   .dropzone-container .dropzone-container-inner .dropzone-subheader {
     font-size: 14px;
+  }
+}
+
+@-webkit-keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
   }
 }
 /*# sourceMappingURL=styles.css.map */

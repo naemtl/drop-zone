@@ -8,12 +8,14 @@
     height: 100vh;
     padding: 0 4px;
     .dropzone-container-inner {
+        .dropzone-datepicker.hide {
+            animation: fade-out ease 2s forwards;
+        }
         .dropzone-header,
         .dropzone-subheader {
             text-transform: uppercase;
             font-family: "Roboto", sans-serif;
         }
-
         .dropzone-header {
             letter-spacing: 4px;
         }
@@ -38,5 +40,14 @@
                 font-size: 14px;
             }
         }
+    }
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
     }
 }
